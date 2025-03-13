@@ -2,12 +2,12 @@
 
 Welcome to my project repository. 
 
-I aim to build a modern data warehouse with SQL Server, including ETL processes, data modeling, to generate actionable insights using data analytics. Designed as a portfolio project which highlights industry best practices in data engineering and analytics. 
+I aim to build a modern data warehouse with PostgreSQL, including ETL processes, data modeling, to generate actionable insights using data analytics. Designed as a portfolio project which highlights industry best practices in data engineering and analytics. 
 
 ---
 
 **Objective**
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using PostgreSQL to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 **Specifications**
 - Data Sources: Import data from two source systems (ERP and CRM) provided as CSV files.
