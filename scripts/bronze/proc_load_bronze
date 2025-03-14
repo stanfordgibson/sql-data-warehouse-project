@@ -1,11 +1,18 @@
 /*
 ==================================================================================================
-DDL Script: Create Bronze Tables
+Stored Procedure: Create and Populate the Bronze Tables
 ==================================================================================================
 Script purpose:
-  This script creates the tables in the Bronze schema, after checking that it exists. 
+  This stored procedure creates the Bronze schema as well as tables in the Bronze schema, after checking that it exists. 
   It first drops and recreates the table before populating it. 
-  Run this script to re-define the DDL structure of the Bronze tables.
+  Run this script to re-define the DDL structure of the Bronze tables and to populate them.
+
+Parameters:
+	None.
+	This stored procedure does not accept any parameters nor return any values.
+
+Usage Example:
+	CALL bronze.load_bronze;
 ==================================================================================================
 */
 
